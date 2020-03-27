@@ -13,7 +13,7 @@ end
 def reduce(source_array, starting_value = 0)
   element_index = 0
   if starting_value == nil 
-    value = nil 
+    value = source_array[0]
     else value = starting_value
     end
   while element_index < source_array.length do
