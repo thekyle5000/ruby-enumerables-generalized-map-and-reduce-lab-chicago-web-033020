@@ -10,9 +10,12 @@ end
 new_array
 end
 
-def reduce(source_array, starting_value = nil)
+def reduce(source_array, starting_value = 0)
   element_index = 0
-  value = starting_value
+  if starting_value == nil 
+    value = nil 
+    else value = starting_value
+    end
   while element_index < source_array.length do
     new_value = yield(value, source_array[element_index])
     value = new_value
