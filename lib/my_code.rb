@@ -19,6 +19,7 @@ def reduce(source_array, starting_value = 0)
     element_index += 1
   end 
   new_value
+  binding.pry
 end
 
 
