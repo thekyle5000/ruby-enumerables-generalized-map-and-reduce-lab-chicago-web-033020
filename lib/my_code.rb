@@ -18,7 +18,7 @@ def reduce(source_array, starting_value = 0)
     value = new_value
     element_index += 1
   end 
-  new value
+  new_value
 end
 
   
