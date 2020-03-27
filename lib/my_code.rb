@@ -10,7 +10,7 @@ end
 new_array
 end
 
-def reduce(source_array, starting_value = 0)
+def reduce(source_array, starting_value = nil)
   element_index = 0
   value = starting_value
   while element_index < source_array.length do
