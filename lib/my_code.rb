@@ -15,16 +15,10 @@ def reduce(source_array, starting_value = 0)
   value = starting_point
   while element_index < source_array.length do
     new_value = yield(value, source_array[element_index])
-    
-    
-    
-    
-    
-    
-   return_value = yield(value, source_array[element_index])
-   element_index += 1
-  end
- return_value
+    value = new_value
+    element_index += 1
+  end 
+  new value
 end 
 
   
